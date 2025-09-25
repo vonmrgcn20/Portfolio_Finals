@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margacinio portfolio/Blog </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="#" class="nav-brand">VONTIBEY</a>
+                <nav class="nav-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button id="mobile-menu-button" aria-label="Open Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="container">
+                <h1 class="hero-title">Marvhon Margacinio</h1>
+                <p class="hero-subtitle">Graphic Designer</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-fade-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/vhon.jpg" alt="John Doe">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm vhon, a passionate full-stack developer with a love for creating beautiful,
+                            functional, and user-centered digital experiences. With over 5 years in the industry, I have
+                            a proven track record of designing, developing, and deploying robust web applications.
+                        </p>
+                        <p>
+                            My journey in web development started with a simple "Hello, World!" and has since grown into
+                            a full-fledged passion for solving complex problems and learning new technologies. I
+                            specialize in the MERN stack but I'm always eager to explore new frameworks and tools.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me exploring the outdoors, contributing to open-source
+                            projects, or brewing the perfect cup of coffee.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-fade-in">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/vhon.jpg" alt="Project 1">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View</a>
+                                <a href="#" class="project-link">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A feature-rich online store built with React, Node.js, and MongoDB. Includes product
+                                management, user authentication, and a Stripe payment gateway.</p>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/vhon.jpg" alt="Project 2">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View</a>
+                                <a href="#" class="project-link">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management App</h3>
+                            <p>A collaborative task manager inspired by Trello, built with Vue.js and Firebase. Features
+                                drag-and-drop functionality and real-time updates.</p>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/vhon.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">View</a>
+                                <a href="#" class="project-link">Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p>An interactive dashboard for visualizing complex datasets using D3.js and React. Connects
+                                to a REST API to fetch and display data in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-fade-in">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <span class="skill-badge">Graphic Design</span>
+                    <span class="skill-badge">Adobe Photoshop</span>
+                    <span class="skill-badge">Illustrator</span>
+                    <span class="skill-badge">Logo Design</span>
+                    <span class="skill-badge">Print Document Layouts</span>
+                    <span class="skill-badge">Brochures</span>
+                    <span class="skill-badge">Figma</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-fade-in">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </div>
+                </form>
+                <div id="form-message"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/vonmrgcn20"><img src="assets/github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/von_mrgcn"><img src="assets/instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/vonmrgcn"><img src="assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/tiktok.png" alt="Tiktok"></a>
+            </div>
+            <p>&copy; 2025 Marvhon Margacinio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
